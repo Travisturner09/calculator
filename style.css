@@ -1,0 +1,43 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    background-color: rgb(8, 8, 26);
+    
+}
+.wrapper{
+    display: grid;
+    grid-template-columns: auto, auto, auto;
+    background-color: rgb(9, 25, 33);
+    grid-gap: 1px;
+    padding: 10px;
+    width: 25%;
+    text-align: center;
+    padding-left: 40%;
+    padding-right: 50%;
+    color: white;
+    
+}
+.wrapper div{
+    background-color: rgb(12, 39, 52);
+    text-align: center;
+    padding: 20px 0;
+    font-size: 30px;
+}
+.red{
+    grid-column: 1/3;
+}
+.plus{
+    grid-row-end: span 2;
+}
+.face{
+    grid-column: 1/4;
+}
+.wrapper .face{
+background-color: white;
+color: black;
+width: 130%;
+text-align: left;
+}
+.wrapper .ans{
+    background-color: yellow;
+}
